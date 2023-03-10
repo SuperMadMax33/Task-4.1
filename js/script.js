@@ -12,54 +12,54 @@ function myfunc () {
     b9 = document.getElementById("b9").value;
 
     if (b1.toLowerCase() == 'x' && b2.toLowerCase() == 'x' && b3.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if (b4.toLowerCase() == 'x' && b5.toLowerCase() == 'x' && b6.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if (b7.toLowerCase() == 'x' && b8.toLowerCase() == 'x' && b9.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if(b1.toLowerCase() == 'x' && b4.toLowerCase() == 'x' && b7.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if(b2.toLowerCase() == 'x' && b5.toLowerCase() == 'x' && b8.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if(b3.toLowerCase() == 'x' && b6.toLowerCase() == 'x' && b9.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if(b1.toLowerCase() == 'x' && b5.toLowerCase() == 'x' && b9.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     } else if(b3.toLowerCase() == 'x' && b5.toLowerCase() == 'x' && b7.toLowerCase() == 'x') {
-        window.alert('You are a winner');
+        window.alert('You are a winner X');
         reset();
     }
     
     if (b1.toLowerCase() == 'o' && b2.toLowerCase() == 'o' && b3.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if (b4.toLowerCase() == 'o' && b5.toLowerCase() == 'o' && b6.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if (b7.toLowerCase() == 'o' && b8.toLowerCase() == 'o' && b9.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if(b1.toLowerCase() == 'o' && b4.toLowerCase() == 'o' && b7.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if(b2.toLowerCase() == 'o' && b5.toLowerCase() == 'o' && b8.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if(b3.toLowerCase() == 'o' && b6.toLowerCase() == 'o' && b9.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if(b1.toLowerCase() == 'o' && b5.toLowerCase() == 'o' && b9.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     } else if(b3.toLowerCase() == 'o' && b5.toLowerCase() == 'o' && b7.toLowerCase() == 'o') {
-        window.alert('You are a winner');
+        window.alert('You are a winner O');
         reset();
     }
 }
